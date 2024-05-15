@@ -29,12 +29,8 @@ main, header {
     padding: 0.5em;
 }
 
-header {
-    padding: 1em;
-}
-
 section {
-    margin: 0.5em auto;
+    margin: auto;
     width: 38.3em;
     border-radius: 5px;
     overflow: auto;
@@ -186,4 +182,40 @@ legend {
     height: 1px;
     background-color: #e5e5e5;
     margin: 0 5%;
+}
+
+@media only screen and (max-width: 40em) {
+    section {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .info-section {
+        font-size: 0.8em;
+    }
+
+    .container {
+        margin: 1em 0;
+    }
+
+    .section-title {
+        padding: 0.25em 0.25em;
+        font-size: 1em;
+    }
+
+    .section-content {
+        padding: 0.75em;
+    }
+
+    fieldset {
+        font-size: 0.9em;
+    }
+
+    .form-field label, .form-field input, .form-field select, .form-field output {
+        font-size: 0.9em;
+    }
+
+    .form-field input, .form-field select {
+        font-size: 0.9em;
+    }
 }

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,27 +10,29 @@
     <title>Pattern Tool</title>
 </head>
 <body>
-    <section>
-        <div class="section-title section-green">Packhouse 3-On 3-Off Shift Pattern Tool</div>
-        <div class="section-content clearfix">
-            <form id="patterns" class="clearfix">
-                <span class="info-section">
-                    Please select the date below to see which week number should be selected when assigning work patterns.
-                    The week number will be the same for Shift A and Shift B.
-                </span>
-                <fieldset class="container">
-                    <legend>Pattern Information</legend>
-                    <div class="form-field clearfix">
-                        <label for="date">Effective date <span class="asterisk">*</span></label>
-                        <input id="date" name="date" type="date" onchange='calculatePattern()'/>
-                    </div>
-                </fieldset>
-                <span class="info-section" id="result">
-                    Please select this employee's first day of work on this pattern.
-                </span>
-            </form>
-        </div>
-    </section>
-    <script src="main.js"></script>
+    <main>
+        <section>
+            <div class="section-title section-green">Packhouse 3-On 3-Off Shift Pattern Tool</div>
+            <div class="section-content clearfix">
+                <form id="patterns" class="clearfix">
+                    <span class="info-section">
+                        Please select the date below to see which week number should be selected when assigning work patterns.
+                        The week number will be the same for Shift A and Shift B.
+                    </span>
+                    <fieldset class="container">
+                        <legend>Pattern Information</legend>
+                        <div class="form-field clearfix">
+                            <label for="date">Effective date <span class="asterisk">*</span></label>
+                            <input id="date" name="date" type="date" onchange='calculatePattern()'/>
+                        </div>
+                    </fieldset>
+                    <span class="info-section" id="result">
+                        Please select this employee's first day of work on this pattern.
+                    </span>
+                </form>
+            </div>
+        </section>
+        <script src="main.js"></script>
+    </main>
 </body>
 </html>
