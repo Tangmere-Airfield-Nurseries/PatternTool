@@ -17,7 +17,7 @@ function calculatePattern() {
     
     let effectiveWeek = getPatternWeek(referenceDate, effectiveDate);
     
-    resultBox.innerHTML = `For an employee starting on <b>${weekday[effectiveDate.getDay()]} - ${effectiveDate.toLocaleDateString()}</b>, the week number to select is <b>${effectiveWeek}</b>.`;
+    resultBox.innerHTML = `For an employee starting on <b>${weekday[effectiveDate.getDay()]} - ${effectiveDate.toLocaleDateString()}</b>, the week to select is <b>Week ${effectiveWeek}</b>.`;
 }
 
 function getPatternWeek(referenceDate, effectiveDate)
