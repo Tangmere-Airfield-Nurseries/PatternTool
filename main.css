@@ -207,13 +207,14 @@ legend {
     }
 
     .form-field label, .form-field output {
-        width: inherit;
+        width: 100%;
         text-align: center;
         margin: 5pt 0;
     }
 
     .form-field input, .form-field select {
-        width: inherit;
+        width: 100%;
+        text-align: center;
         margin: 5pt 0;
     }
 }
