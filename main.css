@@ -118,7 +118,7 @@ legend {
 .form-field {
     width: 100%;
     margin: auto;
-    padding: 5px 0;
+    padding: 5pt 0;
     clear: both;
     color: #555;
 }
@@ -191,31 +191,29 @@ legend {
     }
     
     .info-section {
-        font-size: 0.8em;
-    }
-
-    .container {
-        margin: 1em 0;
+        font-size: 1.1em;
     }
 
     .section-title {
         padding: 0.25em 0.25em;
-        font-size: 1em;
     }
 
     .section-content {
         padding: 0.75em;
     }
-
-    fieldset {
-        font-size: 0.9em;
+    
+    .form-field {
+        padding: 5pt 10pt;
     }
 
-    .form-field label, .form-field input, .form-field select, .form-field output {
-        font-size: 0.9em;
+    .form-field label, .form-field output {
+        width: inherit;
+        text-align: center;
+        margin: 5pt 0;
     }
 
     .form-field input, .form-field select {
-        font-size: 0.9em;
+        width: inherit;
+        margin: 5pt 0;
     }
 }
